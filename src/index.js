@@ -1,4 +1,3 @@
-import { Personagem } from "./modules/personagem.js";
 import { PersonagemView } from "./components/personagem-view.js";
 import { Mago } from "./modules/mago.js";
 import { Arqueiro } from "./modules/arqueiro.js";
@@ -10,15 +9,13 @@ const arqueiroBruno = new Arqueiro("Bruno", 7, 8);
 const arqueiroIam = new Arqueiro("Iam", 8, 9);
 const arqueiroMagoChico = new ArqueiroMago("Chico", 7, 10, "ar", 4, 8);
 const guerreiraJorge = new Guerreiro("Jorge", 8);
-const guerreiraBento = new Guerreiro("Bento", 10);
-
+	
 const personagens = [
 	guerreiraJorge,
 	arqueiroBruno,
 	magoAntonio,
 	arqueiroMagoChico,
 	arqueiroIam,
-	guerreiraBento,
 ];
 
 new PersonagemView(personagens).render();

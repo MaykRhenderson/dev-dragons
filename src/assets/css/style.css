@@ -11,6 +11,20 @@ body {
     height: 100vh;
 }
 
+::-webkit-scrollbar {
+    background-color: #072041;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffba31;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #072041;
+    border-radius: 6px;
+}
+
 header,
 .personagens {
     width: 75%;
